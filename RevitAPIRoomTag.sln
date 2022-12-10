@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPIRoomTag", "RevitAPIRoomTag\RevitAPIRoomTag.csproj", "{0B356DB2-3ABA-435A-B4E7-B0C1BD6C917E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B356DB2-3ABA-435A-B4E7-B0C1BD6C917E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B356DB2-3ABA-435A-B4E7-B0C1BD6C917E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B356DB2-3ABA-435A-B4E7-B0C1BD6C917E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B356DB2-3ABA-435A-B4E7-B0C1BD6C917E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3918A6F-7498-4015-B73E-AD3E98C54D6C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Assembly>"C:\Users\veram\AppData\Roaming\Autodesk\AutodeskRevitAPITraining\RevitAPIRoomTag.dll"</Assembly>
+		<AddInId>60853DCD-EA92-4ED0-80D7-C2CE7D798A85</AddInId>
+		<FullClassName>RevitAPIRoomTag.Main</FullClassName>
+		<VendorId>ADSK</VendorId>
+		<Text>Добавление номеров помещений</Text>
+	</AddIn>
+</RevitAddIns>

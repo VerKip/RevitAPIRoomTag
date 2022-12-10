@@ -1,0 +1,21 @@
+﻿<Window x:Class="RevitAPIRoomTag.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RevitAPIRoomTag"
+             mc:Ignorable="d" 
+             d:DesignHeight="130" d:DesignWidth="400"
+             Title="Нумерация помещений">
+    <StackPanel>
+        <Label Content="Выбрать тип метки"/>
+        <ComboBox ItemsSource="{Binding Tags}"
+                  SelectedValue="{Binding SelectedTag}"
+                  DisplayMemberPath="Name"
+                  Margin="5"/>
+
+        <Button Content="Добавить метки"
+                Command="{Binding SaveCommand}"
+                Margin="5"/>
+    </StackPanel>
+</Window>
